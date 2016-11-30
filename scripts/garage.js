@@ -17,10 +17,7 @@ $(document).ready(function() {
     };
     console.log('Adding car ', newCar);
     garageArray.push(newCar);
-    $('#outputDiv').html('');
-    garageArray.forEach(function(car) {
-      $('#outputDiv').append(createCarHtml(car));
-    });
+    displayCars(garageArray);
   });
 });
 
@@ -31,4 +28,13 @@ function createCarHtml(car) {
   html += '<p>' + car.description + '</p>';
   html += '<img src="' + car.picURL + '">';
   return html;
+}
+
+function displayCars(carArray) {
+  /* Puts an array of cars on the DOM */
+  // First wipe the existing cars on the DOM
+  $('#outputDiv').html('');
+  carArray.forEach(function(car) {
+    $('#outputDiv').append(createCarHtml(car));
+  });
 }

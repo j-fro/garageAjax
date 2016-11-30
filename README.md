@@ -9,3 +9,11 @@ Technologies
 * HTML, CSS, JS
 * AJAX/JSON
 * jQuery
+
+Car Object
+----------
+* year
+* make
+* model
+* description
+* picURL

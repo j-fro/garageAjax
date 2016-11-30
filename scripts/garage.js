@@ -26,8 +26,8 @@ $(document).ready(function() {
 
 function createCarHtml(car) {
   /* Returns an HTML string for displaying a car wrapped in a div */
-  var html = '<div>';
-  html += '<p>' + car.year + ' ' + car.make + ' ' + car.model + '</p>';
+  var html = '<div class="carDisplay">';
+  html += '<p><strong>' + car.year + ' ' + car.make + ' ' + car.model + '</strong></p>';
   html += '<p>' + car.description + '</p>';
   html += '<img src="' + car.picURL + '">';
   return html;

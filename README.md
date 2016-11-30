@@ -1,8 +1,7 @@
-jQuery Review and JSON/AJAX intro
-=================================
+AJAX Garage Partners
+====================
 
-* review: recreate garage project
-* add AJAX call for web sourced JSON file
+* Houses several wonderful cars received both from somewhere mysterious on the web and entered by the user
 
 Technologies
 ------------

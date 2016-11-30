@@ -1,0 +1,10 @@
+.carDisplay {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  margin: 10px;
+}
+
+.carDisplay img {
+  width: 250px;
+}
